@@ -20,7 +20,8 @@ Packages needed:
 - use file FILE_INPUT with columns ['review', 'polarity']
 - save the clean dataset into FILE_OUTPUT
 - builds the topic models
-- creates the word embeddings and topic2vec into the models/ folder
+- creates the word embeddings and topic2vec into the models/ folder 
+- !!!create the models/ folder before running this!!!
 
 ```
 python3.7 clean_data.py FILE_INPUT FILE_OUTPUT
@@ -28,7 +29,7 @@ python3.7 clean_data.py FILE_INPUT FILE_OUTPUT
 
 ### Create the Doc2Vec and DocTopic2Vec models
 - uses de models in the the models/ folder
-- requires the clean file (the output from previous step) as a parameter EMB_NAME
+- requires the clean file (the output from previous step) as a parameter CLEAN_DATASET
 - requires the embedding name as a parameter EMB_NAME 
 
 
