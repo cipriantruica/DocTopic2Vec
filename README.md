@@ -45,9 +45,7 @@ python3.7 create_doc2vec.py CLEAN_DATASET EMB_NAME
 
 ```
 # Logistic Regression
-python3.7 classification_logreg.py INPUT_FILE
-
- VEC_DIM
+python3.7 classification_logreg.py INPUT_FILE VEC_DIM
 
 # RNN DNNs
 python3.7 classification_rnn.py INPUT_FILE VEC_DIM
@@ -59,4 +57,5 @@ python3.7 classification_cnn.py INPUT_FILE VEC_DIM
 python3.7 classification_multigpu.py INPUT_FILE VEC_DIM
 ```
 
-We wish you Good Luck and God's speed running this ;)
+Hope yoou have enough computational power, RAM, time, and the nerves to run this!
+Thus, we wish you Good Luck and God's speed running this  ;)
