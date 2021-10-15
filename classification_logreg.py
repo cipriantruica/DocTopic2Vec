@@ -52,7 +52,7 @@ def splitDataSet(dataSet):
 def logisticReg(x_train, y_train, x_test):
     # classification 
     start_time = time.time()
-    logreg = LogisticRegression(n_jobs=no_threads, C=1e5)
+    logreg = LogisticRegression(n_jobs=no_threads, C=1e-5)
     logreg = logreg.fit(x_train, y_train)
     y_pred = logreg.predict(x_test)
     print("Time taken to predict: " + str(time.time() - start_time))
