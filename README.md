@@ -3,7 +3,7 @@
 
 ### Article:
 
-Ciprian-Octavian Truică, Elena-Simona Apostol, Maria-Luiza Șerban and Adrian . *Topic-Based Document-Level Sentiment Analysis Using Contextual Cues*. Mathematics, 9(21):1-23(2722), ISSN 2227-7390, October 2021 DOI: [10.3390/math9212722](http://doi.org/10.3390/math9212722)
+Ciprian-Octavian Truică, Elena-Simona Apostol, Maria-Luiza Șerban and Adrian Paschke. *Topic-Based Document-Level Sentiment Analysis Using Contextual Cues*. Mathematics, 9(21):1-23(2722), ISSN 2227-7390, October 2021 DOI: [10.3390/math9212722](http://doi.org/10.3390/math9212722)
 
 ### Packages needed:
 - pandas
